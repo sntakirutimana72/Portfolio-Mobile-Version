@@ -11,7 +11,25 @@
 - HTML & CSS
 
 
-## Screenshots (if available)
+## Screenshots
+
+### Homepage
+![](./static/images/homepage.png)
+
+### My Recent Works Page
+![](./static/images/workspage.png)
+
+### Languages Page
+![](./static/images/langpage.png)
+
+### Frameworks Page
+![](./static/images/frameworks-page.png)
+
+### Skills Page
+![](./static/images/skillpage.png)
+
+### Get-in-touch Page
+![](./static/images/contactpage.png)
 
 
 ## Getting Started
