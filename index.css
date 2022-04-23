@@ -224,10 +224,9 @@ ul {
 }
 
 .works-container {
-  display: flex;
+  display: grid;
   gap: 24px;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .btn {
@@ -245,7 +244,16 @@ ul {
 /* about me */
 
 .about-me {
-  margin-top: 48px;
+  padding-top: 48px;
+  background-image:
+    url(./static/images/about-1-icon.png),
+    url(./static/images/about-2-icon.png);
+  background-position: top -20px left 100%;
+  background-repeat: no-repeat;
+}
+
+.about-me > h3 {
+  margin-bottom: 24px;
 }
 
 /* about me description section */
@@ -256,11 +264,6 @@ ul {
   padding: 0 12px;
   flex-direction: column;
   align-items: center;
-  background-image:
-    url(./static/images/about-1-icon.png),
-    url(./static/images/about-2-icon.png);
-  background-position: top -45px left 100%;
-  background-repeat: no-repeat;
 }
 
 .about-description {
@@ -270,28 +273,33 @@ ul {
   line-height: 32px;
   text-align: center;
   color: #42526e;
+  margin: 0;
 }
 
 /* Get in touch section */
 
-.get-in-touch {
+.contact-container {
   background-image: url(./static/images/in-touch-icon.png);
   background-repeat: no-repeat;
-  background-position: top 85% left 100%;
+  background-position: top 90% left 100%;
 }
 
-.grid-container {
-  display: grid;
-}
-
-.get-in-touch form {
+.footer {
   display: flex;
+  margin: 35px 0;
   flex-direction: column;
-  gap: 24px;
   align-items: center;
 }
 
-.get-in-touch h3 {
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+  align-items: center;
+}
+
+.contact-container h3 {
   margin-bottom: 34px;
 }
 
@@ -314,8 +322,6 @@ textarea {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
-  margin-bottom: 70px;
-  justify-self: center;
 }
 
 /* cursor behavior */
