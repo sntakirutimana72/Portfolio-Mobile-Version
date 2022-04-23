@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# microverse-html-css-template
+# Portfolio: Mobile Version
 
-> A Microverse Github Template for projects built with HTML & CSS only.
+> A mobile version web app that displays my portfolio.
+> The app displays different aspects and skills, from technical to general skills.
 
 
 ## Built With
