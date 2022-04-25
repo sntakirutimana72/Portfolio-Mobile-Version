@@ -42,20 +42,20 @@
 }
 
 .list-view {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: inline;
+  overflow: none;
 }
 
 .list-item {
   font-weight: 600;
   font-size: 12px;
+  margin: 5px;
   line-height: 16px;
   color: #3a4a42;
   padding: 8px 10px;
   background: #ebf0ee;
   border-radius: 4px;
+  float: left;
 }
 
 .list-item.skills-item {
