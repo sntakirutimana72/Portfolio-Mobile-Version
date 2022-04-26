@@ -241,6 +241,15 @@ ul {
   border-radius: 4px;
 }
 
+.btn:hover {
+  box-shadow: 0 1px 8px black;
+}
+
+.btn:active {
+  background: orangered;
+  box-shadow: 0 1px 8px black;
+}
+
 /* about me */
 
 .about-me {
@@ -274,6 +283,10 @@ ul {
   text-align: center;
   color: #42526e;
   margin: 0;
+}
+
+.button {
+  margin-bottom: 50px;
 }
 
 /* Get in touch section */
@@ -332,8 +345,4 @@ input,
 textarea,
 button {
   cursor: pointer;
-}
-
-.about-me button {
-  margin-bottom: 50px;
 }
