@@ -221,7 +221,7 @@ ul {
 
 .colapse-btn:hover {
   cursor: pointer;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* ====== My Recent Works =========== */
