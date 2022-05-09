@@ -1,5 +1,9 @@
 /* Declarations */
 
+.hidden {
+  display: none;
+}
+
 .card-float-img {
   position: absolute;
   width: 80px;
@@ -165,6 +169,28 @@ ul {
 .nav-bar a {
   font-weight: 600;
   line-height: 28px;
+}
+
+.menu-container {
+  z-index: 99;
+  position: absolute;
+  height: 100vh;
+  background: #fff;
+}
+
+.menu-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 28px;
+}
+
+.menu-container li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3A4A42;
 }
 
 /* ===== intro section ====== */
