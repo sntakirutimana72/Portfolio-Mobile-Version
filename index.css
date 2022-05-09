@@ -175,10 +175,32 @@ ul {
   z-index: 99;
   position: absolute;
   height: 100vh;
-  background: #fff;
+  background: #e5e5e5;
+  background-image: url(/static/images/footer-bar.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 10px center;
+}
+
+.menu-container > div {
+  background-color: white;
+  height: 90vh;
+  border-radius: 0 0 30px 30px;
+}
+
+.menu-container .x-button-c {
+  height: 50px;
+}
+
+.menu-container .x-button {
+  outline: none;
+  background-color: white;
+  border: none;
+  float: right;
+  padding: 10px;
 }
 
 .menu-container ul {
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -190,7 +212,10 @@ ul {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #3A4A42;
+}
+
+.menu-container li a {
+  color: #3a4a42;
 }
 
 /* ===== intro section ====== */
@@ -295,8 +320,7 @@ ul {
 
 .about-me {
   padding-top: 48px;
-  background-image:
-    url(./static/images/about-1-icon.png),
+  background-image: url(./static/images/about-1-icon.png),
     url(./static/images/about-2-icon.png);
   background-position: top -20px left 100%;
   background-repeat: no-repeat;
