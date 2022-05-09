@@ -1,5 +1,9 @@
 /* Declarations */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hidden {
   display: none;
 }
@@ -121,7 +125,7 @@ h2 {
 }
 
 * {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
 }
 
@@ -166,6 +170,10 @@ ul {
   justify-content: space-between;
 }
 
+#ham-button:hover {
+  cursor: pointer;
+}
+
 .nav-bar a {
   font-weight: 600;
   line-height: 28px;
@@ -173,7 +181,7 @@ ul {
 
 .menu-container {
   z-index: 99;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   background: #e5e5e5;
   background-image: url(/static/images/footer-bar.svg);

@@ -4,6 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Portfolio: Mobile Version</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css" />
     </head>
 
@@ -15,7 +18,7 @@
                     <div class="nav-bar-item">
                         <a href="#" title="logo" class="h2-logo">Welcome</a>
                     </div>
-                    <div class="nav-bar-item">
+                    <div class="nav-bar-item" id="ham-button">
                         <img
                             src="./static/images/hamburger-menu-icon.png"
                             title="Menu Options"
@@ -27,7 +30,7 @@
                 </nav>
             </header>
 
-            <section class="menu-container main-l-item">
+            <section class="menu-container main-l-item hidden">
                 <div>
                     <div class="x-button-c">
                         <button class="x-button">
@@ -36,15 +39,15 @@
                     </div>
 
                     <ul>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#"> About</a></li>
-                        <li><a href="#">Contact </a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about"> About</a></li>
+                        <li><a href="#contact">Contact </a></li>
                     </ul>
                 </div>
             </section>
 
             <!-- Intro Section -->
-            <section class="cont-preview main-l-item">
+            <section class="cont-preview main-l-item" id="portfolio">
                 <!-- Header -->
                 <h2>
                     Hello there! I'm Steven.<br />
@@ -230,7 +233,7 @@
             </section>
 
             <!-- About me section -->
-            <section class="about-me main-l-item">
+            <section class="about-me main-l-item" id="about">
                 <h3>About me</h3>
                 <div class="about-me-describe">
                     <p class="about-description">
@@ -326,7 +329,7 @@
             </section>
 
             <!-- contact section -->
-            <section class="main-l-item contact-container">
+            <section class="main-l-item contact-container" id="contact">
                 <form
                     class="contact-form"
                     action="https://formspree.io/f/mayvlerd"
@@ -414,5 +417,7 @@
                 </div>
             </section>
         </div>
+
+        <script src="index.js"></script>
     </body>
 </html>

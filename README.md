@@ -8,7 +8,9 @@
 
 ## Built With
 
-- HTML & CSS
+- html
+- css
+- JavaScript
 
 
 ## Screenshots
@@ -55,6 +57,10 @@ To get a local copy up and running follow these simple example steps.
 👤 **Steve**
 
 - GitHub: [@github-profile](https://github.com/sntakirutimana72)
+
+👤 **Mohammed Raad**
+
+- GitHub: [@github-profile](https://github.com/MoRaad97)
 
 ## 🤝 Contributing
 
