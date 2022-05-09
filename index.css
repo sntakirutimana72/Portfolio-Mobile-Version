@@ -125,7 +125,7 @@ h2 {
 }
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -328,8 +328,7 @@ ul {
 
 .about-me {
   padding-top: 48px;
-  background-image: url(./static/images/about-1-icon.png),
-    url(./static/images/about-2-icon.png);
+  background-image: url(./static/images/about-1-icon.png), url(./static/images/about-2-icon.png);
   background-position: top -20px left 100%;
   background-repeat: no-repeat;
 }
