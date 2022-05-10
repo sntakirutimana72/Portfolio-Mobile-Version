@@ -1,20 +1,16 @@
-window.addEventListener("DOMContentLoaded", onReady);
+function closeMenu() {
+  document.querySelector('.menu-container').classList.toggle('hidden');
+}
 
-function onReady() {
-  const menuButton = document.getElementById("ham-button");
-  menuButton.addEventListener('click', () => {
-    document.querySelector('.menu-container').classList.remove('hidden');
-  });
+window.addEventListener('DOMContentLoaded', () => {
+  const menuButton = document.getElementById('ham-button');
+  menuButton.addEventListener('click', () => closeMenu());
 
-  const xButton = document.querySelector(".x-button");
+  const xButton = document.querySelector('.x-button');
   xButton.addEventListener('click', closeMenu);
 
-  const refs = document.querySelectorAll(".menu-container a");
-  refs.forEach(node => {
+  const refs = document.querySelectorAll('.menu-container a');
+  refs.forEach((node) => {
     node.onclick = () => closeMenu();
-  })
-}
-
-function closeMenu() {
-  document.querySelector('.menu-container').classList.add('hidden');
-}
+  });
+});
